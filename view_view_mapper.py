@@ -69,7 +69,7 @@ for v in views:
     ]
 ui = input(json.dumps(tbls_by_view, indent=4) + '\n\n dump in DB? [no action=yes!]\n:>')
 
-if not iu:
+if not ui:
     vals = ',\n    '.join(
         sorted(
             str((k0,k1, i, x)) 
